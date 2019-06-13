@@ -37,14 +37,14 @@ module.exports = {
                     '../apis/setShowChat',
                     '../apis/setMapData',
                     '../apis/setThemeColor',
+                    '../apis/startRequestWithText',
                   ]
             },
             {
                 title: '渲染模版',
                 collapsable: true,
                 children: [
-                      '../list/viewdata',
-                      '../list/viewFun',          
+                      '../list/Person',      
                   ]
             },
         ]

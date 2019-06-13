@@ -26,6 +26,27 @@ App.continueSpeech({'changeVoice': (string)=>{
 }})
 //停止录音
 App.stopVoive()
+//新窗口打开
+App.openInNewWindow(url:string)
+ //获取地理位置
+App.getLocation({
+	success:function(res){
+		/** {
+		 * 	longitude:经度，
+		 * 	latitude:维度，
+		 * 	address:位置
+		 * }*/
+	},
+	fail:function(res){
+		/** {
+		 * 	errMsg:错误信息，
+		 * }*/
+	}
+})
+//拨打电话
+App.tel(tenlno:string)
+//发送短信
+App.textMessage(tenlno:string)
 
 ```
 

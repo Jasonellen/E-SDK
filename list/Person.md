@@ -4,6 +4,7 @@
 ```js
     item.__data = {
         dataType:'Person', //选择人员模板进行渲染
+        answer:"找到相关人员如下", //语音播报和显示的文字
         list:[{
             id:1, //人员id
             schema:'RSC', //点击跳转的类型  参见 getMapData
